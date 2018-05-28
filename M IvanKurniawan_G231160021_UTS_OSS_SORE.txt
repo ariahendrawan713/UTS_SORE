@@ -1,0 +1,52 @@
+M. Ivan Kurniawan
+G.231.16.0021
+-----------------------------------------------------------------------------------------------------------------------------------
+
+var = 10
+if ( var == 100 ) : print "Value of expression is 100"
+else (var != 100): print "Value of expression is not 100"
+print "Good bye!"
+
+pembenaran : 
+var = 10
+if ( var == 100 ):
+    print "Value of expression is 100"
+else:
+    print "Value of expression is not 100"
+print "Good bye!"
+
+hasil run :
+Value of expression is not 100
+Good bye!
+#karena pada if berisi var == 100, dan jika di ubah : var == 10 maka hasilnya run :
+Value of expression is 100
+===================================================================================================================================
+
+a = 33
+b = 200
+if b > a
+print("b is greater than a") % you will get an error
+
+pembenaran :
+a = 33
+b = 200
+if ( b > a ): #diberi tanda kurung tutup+buka dan di beri tanda titik dua di akhir "if" 
+	print "b is greater than a" 
+
+hasil run :
+b is greater than a
+===================================================================================================================================
+mahasiswa = ["jangan", "lupa", "ucapkan", "salam"]
+for x in mahasiswa:
+print(x)
+
+pembenaran :
+mahasiswa = ['jangan', 'lupa', 'ucapkan', 'salam'] #tanda petik 1 atau petik 2 bisa di jalan kan pada python 2.7
+for x in mahasiswa:
+    print(x) #pada print harus di awal i dengan "tab"
+
+hasil run :
+jangan
+lupa
+ucapkan
+salam
